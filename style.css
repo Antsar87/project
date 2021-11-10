@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Nav {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.Nav__logo {
+  justify-content: center;
+}
+
+.Nav__ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.Nav__link {
+  text-decoration: none;
+  color: grey;
+}
+
+.header {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 50px;
+  background: url(./stadium.jpg) center / cover;
+  object-fit: cover;
+}
+
+.header__box {
+  width: 50%;
+  text-align: center;
+  color: rgb(216, 196, 14);
+  background: #283d34c4;
+  border-radius: 10px;
+}
+
+.header__title {
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.header__button {
+  text-decoration: none;
+  color: rgb(216, 196, 14);
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.section {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+}
+
+.section__title {
+  border-bottom: 2px solid #283d34c4;
+}
+
+.section__text {
+  width: 90%;
+  color: rgb(155, 155, 155);
+}
+
+.aboutUs {
+  margin-top: 30px;
+  display: flex;
+  height: 500px;
+}
+
+.aboutUs__box {
+  flex: 1;
+ align-self: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+.aboutUs__title {
+  text-transform: capitalize;
+}
+
+.aboutUs__text {
+  text-align: justify;
+  color: rgb(155, 155, 155);
+  margin-bottom: 50px;
+}
+
+.aboutUs__box--img {
+  flex: 1;
+  text-align: center;
+}
+
+.aboutUs__img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  background: #283d34c4;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer__text {
+  color: rgb(216, 196, 14);
+  text-transform: capitalize;
+  font-size: 30px;
+}
