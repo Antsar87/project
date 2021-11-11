@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: sans-serif;
+  background: rgb(216, 196, 14);
 }
 
 .container {
@@ -44,7 +45,7 @@ body {
 
 .Nav__link {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
 .header {
@@ -113,7 +114,7 @@ body {
 
 .aboutUs__text {
   text-align: justify;
-  color: rgb(155, 155, 155);
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -155,7 +156,7 @@ body {
   line-height: 20px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(155, 155, 155);
+  color: black;
 }
 
 .galery {
@@ -192,7 +193,7 @@ body {
 }
 
 .footer__text {
-  color: rgb(216, 196, 14);
+  color: black;
   text-transform: capitalize;
   font-size: 30px;
 }
