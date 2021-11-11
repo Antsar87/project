@@ -20,6 +20,7 @@ body {
 
 .title {
   display: inline-block;
+  text-transform: capitalize;
   border-bottom: 3px solid #283d34c4;
 }
 
@@ -53,7 +54,7 @@ body {
   justify-content: center;
   flex-direction: column;
   line-height: 50px;
-  background: url(./img/stadium.jpg) center / cover;
+  background: url(../img/stadium.jpg) center / cover;
   object-fit: cover;
 }
 
@@ -86,10 +87,6 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 30px;
-}
-
-.section__title {
-  border-bottom: 2px solid #283d34c4;
 }
 
 .section__text {

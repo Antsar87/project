@@ -1,0 +1,79 @@
+.Stats {
+  margin-top: 30px;
+}
+
+.Stats__title {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Stats__Table--Box {
+  border-bottom: 1px solid rgb(90, 90, 90);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Stats__Table--text {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.Schedule {
+  margin-top: 30px;
+}
+
+.Schedule__title {
+  text-align: center;
+}
+
+.Schedule__table {
+  margin-top: 30px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Schedule__table--box {
+  border-top: 1px solid grey;
+}
+
+.Schedule__Content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.Schedule__TextBold {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Schedule__TextLight {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.Schedule__Club {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Schedule__Club svg {
+  height: 80px;
+}
+
+.Schedule__Club--Name {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
